@@ -2,6 +2,12 @@
 
 
 \providecommand{\packageName}[1]{PowerEdu.jl}
+\providecommand{\powerflow}[1]{Power Flow}
+\providecommand{\sparse}[1]{Sparse Power Flow}
+\providecommand{\cpf}[1]{Continuation Power Flow}
+\providecommand{\se}[1]{State Estimation}
+\providecommand{\opf}[1]{Optimal Power Flow}
+
 
 
 \usepackage{lipsum}
@@ -15,7 +21,18 @@
 % For now, disabling minipage and hoping that nothing bad happens.
 \section{Description of Modules}
 
-\subsection{Sparse Power Flow}
+\subsection{CDF Parser}
+
+\subsection{\powerflow{}}
+
+\subsection{\sparse{}}
     For Transmission Networks, most of the commonly used data structures for analyses are sparse in nature, i.e. most of their elements are zero. Data Structures such as $Y_{Bus}$, Jacobian $J$, the LU Factors of the Jacobian $L \, U$ are sparse in nature. The sparsity only increases as the size of the system increases. <Insert some values of sparsity for different transmission systems>. This sparsity can be exploited for faster computation and smaller data storage requirements, when performing analysis w.r.t. any aspect of Power Systems. For example, using taking advantage of the sparsity of the above mentioned data structures, along with other schemes such as parallel computation and Single Instruction Multiple Data (SIMD) operations, the authors of \cite{Ahmadi2021Sep} were able to perform very fast Newton Raphson Power Flow for large transmission systems.
 % \end{minipage}
+
+\subsection{\cpf{}}
+
+\subsection{\se{}}
+
+\subsection{\opf{}}
+
 \end{document}

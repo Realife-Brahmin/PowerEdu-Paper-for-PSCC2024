@@ -52,12 +52,4 @@ J.~J. Grainger and W.~D. Stevenson~Jr, \emph{Power system analysis}.\hskip 1em
   \url{https://www.eia.gov/consumption/}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Kundur1994DynamicsBook}
-\BIBentryALTinterwordspacing
-P.~S. Kundur, \emph{{Power System Stability and Control}}.\hskip 1em plus 0.5em
-  minus 0.4em\relax New York, NY, USA: McGraw Hill, Jan. 1994. [Online].
-  Available:
-  \url{https://www.amazon.com/System-Stability-Control-Prabha-Kundur/dp/007035958X}
-\BIBentrySTDinterwordspacing
-
 \end{thebibliography}

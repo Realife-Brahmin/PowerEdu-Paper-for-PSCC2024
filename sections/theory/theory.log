@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  29 AUG 2023 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  29 AUG 2023 13:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PowerEdu-Paper-for-PSCC2024/sections/implementation/implementation.tex"
-(c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PowerEdu-Paper-for-PSCC2024/sections/implementation/implementation.tex
+**"c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PowerEdu-Paper-for-PSCC2024/sections/theory/theory.tex"
+(c:/Users/Aryan Ritwajeet Jha/Documents/documents_general/PowerEdu-Paper-for-PSCC2024/sections/theory/theory.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
 (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/standalone\standalone.cls
@@ -66,55 +66,47 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count198
 \l__lipsum_a_int=\count199
 \l__lipsum_b_int=\count266
- (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (implementation.aux)
-\openout1 = `implementation.aux'.
+ (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (theory.aux)
+\openout1 = `theory.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 28.
+ [1
 
-
-LaTeX Warning: Citation `Ahmadi2021Sep' on page 1 undefined on input line 29.
-
-[1
-
-{C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (implementation.aux)
+{C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (theory.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 1525 strings out of 475551
- 32745 string characters out of 5755910
- 1922238 words of memory out of 5000000
- 22776 multiletter control sequences out of 15000+600000
- 559587 words of font info for 41 fonts, out of 8000000 for 9000
+ 1523 strings out of 475551
+ 32564 string characters out of 5755910
+ 1918238 words of memory out of 5000000
+ 22775 multiletter control sequences out of 15000+600000
+ 559279 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,5n,93p,1031b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on implementation.pdf (1 page, 64736 bytes).
+ 79i,5n,93p,313b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+Output written on theory.pdf (1 page, 15078 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 11 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
