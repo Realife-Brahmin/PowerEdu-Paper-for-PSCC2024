@@ -1,0 +1,21 @@
+\documentclass[varwidth]{standalone}
+
+
+\providecommand{\packageName}[1]{PowerEdu.jl}
+
+
+\usepackage{lipsum}
+
+\begin{document}
+% \begin{minipage}{0.8\linewidth}
+% minipage is good for using the align environment, which otherwise does not 
+% like the standalone environment. But it seems to introduce unnecessary 
+% space in the main.tex file, in this case, after the abstract. 
+% Ideally should test/check why that happens.
+% For now, disabling minipage and hoping that nothing bad happens.
+\section{Description of Modules}
+
+\subsection{Sparse Power Flow}
+    For Transmission Networks, most of the commonly used data structures for analyses are sparse in nature, i.e. most of their elements are zero. Data Structures such as $Y_{Bus}$, Jacobian $J$, the LU Factors of the Jacobian $L \, U$ are sparse in nature. The sparsity only increases as the size of the system increases. <Insert some values of sparsity for different transmission systems>. This sparsity can be exploited for faster computation and smaller data storage requirements, when performing analysis w.r.t. any aspect of Power Systems. For example, using taking advantage of the sparsity of the above mentioned data structures, along with other schemes such as parallel computation and Single Instruction Multiple Data (SIMD) operations, the authors of \cite{Ahmadi2021Sep} were able to perform very fast Newton Raphson Power Flow for large transmission systems.
+% \end{minipage}
+\end{document}
