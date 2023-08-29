@@ -21,6 +21,12 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Ahmadi2021Sep}
+A.~Ahmadi, M.~C. Smith, E.~R. Collins, V.~Dargahi, and S.~Jin, ``{Fast
+  Newton-Raphson Power Flow Analysis Based on Sparse Techniques and Parallel
+  Processing},'' \emph{IEEE Trans. Power Syst.}, vol.~37, no.~3, pp.
+  1695--1705, Sep. 2021.
+
 \bibitem{Crow2021PowerBook}
 \BIBentryALTinterwordspacing
 M.~L. Crow, \emph{{Computational Methods for Electric Power Systems (Electric
