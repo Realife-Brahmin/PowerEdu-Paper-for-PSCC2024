@@ -1,0 +1,36 @@
+\documentclass[varwidth]{standalone}
+
+\providecommand{\packageName}[1]{PowerEdu.jl}
+\providecommand{\powerflow}[1]{Power Flow}
+\providecommand{\sparse}[1]{Sparse Power Flow}
+\providecommand{\cpf}[1]{Continuation Power Flow}
+\providecommand{\se}[1]{State Estimation}
+\providecommand{\opf}[1]{Optimal Power Flow}
+
+\providecommand{\imagedir}{../../images}
+
+
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Results}
+
+\subsection{\powerflow{}}
+
+\subsection{\sparse{}}
+\includegraphics[width=0.3\textwidth]{\imagedir/results_IEEE_14_sparse.png}
+
+\includegraphics[width=0.3\textwidth]{\imagedir/results_IEEE_30_sparse.png}
+
+\subsection{\cpf{}}
+
+% \begin{figure}
+\includegraphics[width=0.5\textwidth]{\imagedir/pv09_09.png}
+% \end{figure}
+
+\subsection{\se{}}
+
+\subsection{\opf{}}
+
+\end{document}

@@ -305,8 +305,14 @@
 \usepackage{standalone}
 \begin{document}
 
-\newcommand{\packageName}{PowerEdu.jl}
+\newcommand{\imagedir}{../images}
 
+\newcommand{\packageName}{PowerEdu.jl}
+\providecommand{\powerflow}[1]{Power Flow}
+\providecommand{\sparse}[1]{Sparse Power Flow}
+\providecommand{\cpf}[1]{Continuation Power Flow}
+\providecommand{\se}[1]{State Estimation}
+\providecommand{\opf}[1]{Optimal Power Flow}
 %
 % paper title
 % Titles are generally capitalized except for words such as a, an, and, as,
@@ -359,7 +365,7 @@
 
 
 \begin{IEEEkeywords}
-  Julia, Open-Source Tools, Power System Analysis, Power System Dynamics, Power System Education
+  Julia, Open-Source Tools, Power System Analysis, Power System Education
 \end{IEEEkeywords}
 
 
@@ -368,177 +374,26 @@
 
 \input{../sections/introduction/introduction.tex}
 
+\input{../sections/theory/theory.tex}
 
-\input{sections/modules/modules}
-\lipsum[1-3]
-\subsection{Abbreviations and Acronyms}
-Define abbreviations and acronyms the first time they are used in the text, even after they have been defined in the abstract. Abbreviations such as IEEE, SI, ac, dc, and rms do not have to be defined. Do not use abbreviations in the title or section headings unless they are unavoidable.
+\input{../sections/implementation/implementation.tex}
 
+\input{../sections/interface/interface.tex}
 
-\subsection{Units}
-\begin{itemize}
-\setlength\itemsep{1em}
- \item
- Metric units are preferred for use in light of their global readership and the inherent convenience of these units in many fields. In particular, the use of the International System of Units (Systeme Internationale d'Unites or SI Units) is advocated. This system includes a subsystem of units based on the meter, kilogram, second, and ampere (MKSA). U.S. Customary units, or British units, may be used as secondary units (in parentheses). An exception is when U.S. Customary units are used as identifiers in trade, such as 3.5-inch disk drive. The Latex package \verb+siunitx+ provides an excellent interface to deal with unit of measurements.
- 
- \item 
- Avoid combining SI and U.S. Customary units, such as current in amperes and magnetic field in oersteds. This often leads to confusion because equations do not balance dimensionally. If you must use mixed units, clearly state the units for each quantity that you use in an equation.
- 
- \item
- Do not mix complete spellings and abbreviations of units: Wb/m2 or \emph{webers per square meter}, not \emph{webers/m2}.  Spell out units when they appear in text, e.g. \emph{a few henries} and not \emph{a few H}.
- 
- \item
- Use a zero before decimal points: '0.25', not '.25'. Use 'cm3', not 'cc'.
-\end{itemize}
+\input{../sections/results/results.tex}
+
+\input{../sections/conclusion/conclusion.tex}
 
 
-\subsection{Equations}
-Equations can be inserted as
-\begin{align}
- y(x) = rx + i.\label{eq:line}
-\end{align}
-Be sure that the symbols in your equation have been defined before or immediately following the equation. Refer to your equation as \eqref{eq:line} and not as Eq.~\eqref{eq:line} or equation~\eqref{eq:line}\footnote{Except at the beginning of sentences.}. Both the \verb+align+ and \verb+eqref+ commands are part of the \verb+amsmath+ package, so make sure you have it installed in order to compile this code successfully.
-
-In-line math is usually typed as $s = v t$.
-
-
-
-\subsection{Tables}
-% An example of a floating table. Note that, for PSCC style tables, the
-% \caption command should come BEFORE the table and, given that table
-% captions serve much like titles, are usually capitalized except for words
-% such as a, an, and, as, at, but, by, for, in, nor, of, on, or, the, to
-% and up, which are usually not capitalized unless they are the first or
-% last word of the caption. Table text will default to \footnotesize as
-% IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-
-An example is shown in Table~\ref{table_example}.
-\begin{table}[!ht]
-% increase table row spacing, adjust to taste
-\renewcommand{\arraystretch}{1.3}
-\centering
-\caption{This is a table.}
-\label{table_example}
-\begin{tabular}{|c|c|}
-\hline
-One & Two\\
-\hline
-Three & Four\\
-\hline
-\end{tabular}
-\end{table}
-
-\subsection{Figures}
-% An example of a floating figure using the graphicx package.
-% Note that \label must occur AFTER (or within) \caption.
-% For figures, \caption should occur after the \includegraphics.
-% Note that IEEEtran v1.7 and later has special internal code that
-% is designed to preserve the operation of \label within \caption
-% even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
-%
-%
-%\begin{figure}[!ht]
-%\centering
-%\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under Latex, 
-% and a .pdf suffix will be assumed for pdfLatex; or what has been declared
-% via \DeclareGraphicsExtensions.
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure}
-
-% Note that IEEE typically puts floats only at the top, even when this
-% results in a large percentage of a column being occupied by floats.
-
-
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command,
-% and the \label for the overall figure must come after \caption.
-% \hfil is used as a separator to get equal spacing.
-% Watch out that the combined width of all the subfigures on a 
-% line do not exceed the text width or a line break will occur.
-%
-%\begin{figure*}[!t]
-%\centering
-%\subfloat[Case I]{\includegraphics[width=2.5in]{box}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{box}%
-%\label{fig_second_case}}
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat[]), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
-% Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
-% labels, the optional argument to \subfloat must be present. If a
-% subcaption is not desired, just leave its contents blank,
-% e.g., \subfloat[].
-
-See the source code. Refer to figures as, for example, Fig.~1, even at the beginning of a sentence. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity \emph{Magnetization}, or \emph{Magnetization, M}, not just \emph{M}. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write \emph{Magnetization (A/m)}, not just \emph{A/m}. Do not label axes with a ratio of quantities and units. For example, write \emph{Temperature (K)}, not \emph{Temperature/K}.
-
-
-\subsection{References}
-References are important to the reader; therefore, each citation must be complete and correct. There is no editorial check on references; therefore, an incomplete or wrong reference will be published unless caught by a reviewer and will detract from the authority and value of the paper. References should be readily available publications. 
-List only one reference per reference number. If a reference is available from two sources, each should be listed as a separate reference.
-
-Unless there are six authors or more give all authors names; do not use 'et al.'. Papers that have not been published, even if they have been submitted for publication, should be cited as 'unpublished'. Capitalize only the first word in a paper title, except for proper nouns and element symbols. For papers published in translation journals, please give the English citation first, followed by the original foreign-language citation. Papers that have been accepted for publication, but not yet published, should be cited as 'in press'.
-
-
-\section{Common mistakes to avoid}
-
-\begin{itemize}
-\setlength\itemsep{1em}
-
-\item
-The word 'data' is plural, not singular.
-
-\item
-The subscript for the permeability of vacuum $\mu_0$, and other common scientific constants, is zero with subscript formatting, not a lowercase letter \emph{o}.
-
-\item
-In American English, commas, semi-/colons, periods, question and exclamation marks are located within quotation marks only when a complete thought or name is cited, such as a title or full quotation. When quotation marks are used, instead of a bold or italic typeface, to highlight a word or phrase, punctuation should appear outside of the quotation marks. A parenthetical phrase or statement at the end of a sentence is punctuated outside of the closing parenthesis (like this). (A parenthetical sentence is punctuated within the parentheses.)
-
-\item
-A graph within a graph is an 'inset', not an 'insert'. The word alternatively is preferred to the word 'alternately' (unless you really mean something that alternates).
-
-\item
-Do not use the word 'essentially' to mean 'approximately' or 'effectively'.
-
-\item
-In your paper title, if the words 'that uses' can accurately replace the word 'using', capitalize the 'u'; if not, keep using lower-cased.
-
-\item
-Be aware of the different meanings of the homophones 'affect' and 'effect', 'complement' and 'compliment', 'discreet' and 'discrete', 'principal' and 'principle'.
-
-\item
-Do not confuse 'imply' and 'infer'.
-
-\item
-The prefix 'non' is not a word; it should be joined to the word it modifies, usually without a hyphen.
-
-\item
-There is no period after the 'et' in the Latin abbreviation 'et al.'.
-
-\item
-The abbreviation 'i.e.' means 'that is', and the abbreviation 'e.g.' means 'for example'.
-\cite{Crow2021PowerBook,NRELSeinnaGitHub,Grainger1994PowerBook,EIAEnergyConsumptionWebpage,Kundur1994DynamicsBook}
-\end{itemize}
+\cite{Crow2021PowerBook,NRELSeinnaGitHub,Grainger1994PowerBook,EIAEnergyConsumptionWebpage}
 
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
 % adjust value as needed - may need to be readjusted if
 % the document is modified later
-%\IEEEtriggeratref{8}
+\IEEEtriggeratref{8}
 % The 'triggered' command can be changed if desired:
-%\IEEEtriggercmd{\enlargethispage{-5in}}
+\IEEEtriggercmd{\enlargethispage{-5in}}
 
 %% that's all folks
 \bibliographystyle{IEEEtran}
