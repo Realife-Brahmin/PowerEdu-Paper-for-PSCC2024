@@ -28,25 +28,59 @@ INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\base\
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
 INPUT .\results.aux
 INPUT .\results.aux
 INPUT results.aux
 OUTPUT results.aux
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_14_sparse.png
 OUTPUT results.pdf
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_14_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\results_IEEE_30_sparse.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
+INPUT ..\..\images\pv09_09.png
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT results.aux
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
