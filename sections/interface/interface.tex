@@ -1,6 +1,7 @@
 \documentclass[varwidth]{standalone}
 
 \providecommand{\packageName}[1]{PowerEdu.jl}
+\providecommand{\packageNameNoJL}[1]{PowerEdu}
 \providecommand{\powerflow}[1]{Power Flow}
 \providecommand{\sparse}[1]{Sparse Power Flow}
 \providecommand{\cpf}[1]{Continuation Power Flow}
@@ -8,19 +9,46 @@
 \providecommand{\opf}[1]{Optimal Power Flow}
 
 \usepackage{lipsum}
+\usepackage{dirtree}
 
 \begin{document}
 
 \section{User Interface}
 
-\subsection{\powerflow{}}
+Upon donwloading \packageName{} on their machine, user will interact with the following directory heirarchy. For the sake of clarity, folders pertaining only to the IEEE\_14 Bus test case are shown, however, in general, every test case will have its dedicated folders for inputs and outputs.
 
-\subsection{\sparse{}}
+\subsection{Directory Structure}
 
-\subsection{\cpf{}}
+\dirtree{%
+.1 {root (\packageNameNoJL{})}.
+.2 {data}.
+.3 {IEEE\_14}.
+.4 {IEEE\_14\_Data.txt}.
+% .3 {$\ldots$ (remaining test cases)}.
+.2 {processedData}.
+.3 {IEEE\_14}.
+.4 {BusDataCard\_pu.csv}.
+.4 {BranchDataCard\_pu.csv}.
+.4 {YBus.csv}.
+.4 {$\ldots$ (other generated files)}.
+% .3 {$\ldots$ (remaining test cases)}.
+.2 {src}.
+.3 {ContinuationPowerFlow.jl}.
+% .3 {HelperFunctions.jl}.
+.3 {IEEE\_CDF\_Parser.jl}.
+% .3 {JacobianBuilder.jl}.
+% .3 {LU\_Factorization.jl}.
+.3 {OptimalPowerFlow.jl}.
+.3 {PowerFlow.jl}.
+.3 {StateEstimation.jl}.
+.3 {SparsePowerFlow.jl}.
+.3 {$\ldots$ (other modules)}.
+% .3 {YBusBuilder.jl}.
+.2 {main.jl}.
+.2 {README.md}.
+.2 {LICENSE}.
+}
 
-\subsection{\se{}}
-
-\subsection{\opf{}}
+\subsection{Pluto Notebook Environment}
 
 \end{document}
