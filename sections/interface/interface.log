@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  29 AUG 2023 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  31 AUG 2023 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -66,27 +66,46 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count198
 \l__lipsum_a_int=\count199
 \l__lipsum_b_int=\count266
- (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (interface.aux)
+ (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/latex/dirtree\dirtree.sty
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+ (C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex/generic/dirtree\dirtree.tex `dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen143
+\DT@width=\dimen144
+\DT@sep=\dimen145
+\DT@all=\dimen146
+\DT@rulewidth=\dimen147
+\DT@dotwidth=\dimen148
+\DTbaselineskip=\dimen149
+\DT@counti=\count267
+\DT@countii=\count268
+\DT@countiii=\count269
+\DT@countiv=\count270
+\DT@indent=\dimen150
+\DT@parskip=\dimen151
+\DT@baselineskip=\dimen152
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
+) (interface.aux)
 \openout1 = `interface.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 26.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 26.
+(Font)              <5> on input line 50.
  [1
 
 {C:/Users/Aryan Ritwajeet Jha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (interface.aux)
@@ -96,17 +115,17 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1523 strings out of 475551
- 32624 string characters out of 5755910
- 1918238 words of memory out of 5000000
- 22775 multiletter control sequences out of 15000+600000
- 559279 words of font info for 40 fonts, out of 8000000 for 9000
+ 1647 strings out of 475551
+ 34673 string characters out of 5755910
+ 1929238 words of memory out of 5000000
+ 22891 multiletter control sequences out of 15000+600000
+ 559447 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,5n,93p,319b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-Output written on interface.pdf (1 page, 14882 bytes).
+ 79i,7n,93p,432b,285s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Aryan Ritwajeet Jha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on interface.pdf (1 page, 57556 bytes).
 PDF statistics:
- 11 PDF objects out of 1000 (max. 8388607)
+ 26 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
