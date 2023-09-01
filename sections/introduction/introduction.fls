@@ -1,7 +1,7 @@
-PWD c:\Users\Aryan Ritwajeet Jha\Documents\documents_general\PowerEdu-Paper-for-PSCC2024\sections\interface
+PWD c:\Users\Aryan Ritwajeet Jha\Documents\documents_general\PowerEdu-Paper-for-PSCC2024\sections\introduction
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Aryan Ritwajeet Jha\Documents\documents_general\PowerEdu-Paper-for-PSCC2024\sections\interface\interface.tex
-OUTPUT interface.log
+INPUT c:\Users\Aryan Ritwajeet Jha\Documents\documents_general\PowerEdu-Paper-for-PSCC2024\sections\introduction\introduction.tex
+OUTPUT introduction.log
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\standalone\standalone.cls
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\standalone\standalone.cls
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
@@ -38,34 +38,16 @@ INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3bac
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\dirtree\dirtree.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\latex\dirtree\dirtree.sty
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\tex\generic\dirtree\dirtree.tex
-INPUT .\interface.aux
-INPUT .\interface.aux
-INPUT interface.aux
-OUTPUT interface.aux
+INPUT .\introduction.aux
+INPUT .\introduction.aux
+INPUT introduction.aux
+OUTPUT introduction.aux
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT .\interface.bbl
-INPUT .\interface.bbl
-INPUT interface.bbl
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-OUTPUT interface.pdf
+OUTPUT introduction.pdf
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT interface.aux
+INPUT introduction.aux
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Users\Aryan Ritwajeet Jha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

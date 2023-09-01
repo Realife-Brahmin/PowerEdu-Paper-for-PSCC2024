@@ -15,7 +15,7 @@
 
 \section{User Interface}
 
-Upon donwloading \packageName{} on their machine, user will interact with the following directory heirarchy. For the sake of clarity, folders pertaining only to the IEEE\_14 Bus test case are shown, however, in general, every test case will have its dedicated folders for inputs and outputs.
+Upon downloading \packageName{} on their machine, the user will interact with the following directory heirarchy. For the sake of clarity, folders pertaining only to the IEEE\_14 Bus test case are shown, however, in general, every test case will have its dedicated folders for inputs and outputs.
 
 \subsection{Directory Structure}
 
@@ -45,10 +45,18 @@ Upon donwloading \packageName{} on their machine, user will interact with the fo
 .3 {$\ldots$ (other modules)}.
 % .3 {YBusBuilder.jl}.
 .2 {main.jl}.
+.2 {main\_notebook.html}.
 .2 {README.md}.
 .2 {LICENSE}.
 }
 
-\subsection{Pluto Notebook Environment}
+\subsection{Pluto Interactive Notebook}
+
+While users are free to make function calls from \packageName{} within any editor of their choice, we also provide a handy interactive notebook environment for users to quickly get an overiew of the package using already made scripts with easy to manipulate control widgets. We prefer Pluto.jl \cite{PlutodotjlGithub} as the notebook environment instead of other popular notebook environments like Jupyter or Observable because, unlike Observable, it is an open source notebook environment and and more importantly, unlike Jupyter it is a reactive notebook, i.e. it does not have any hidden states in the workspace \cite{Pimentel2019May, Perkel2021May}.
+
+\ifstandalone
+\bibliographystyle{IEEEtran}
+\bibliography{../../outputs/BiBFile}
+\fi
 
 \end{document}
