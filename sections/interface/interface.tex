@@ -51,13 +51,15 @@ Upon downloading \packageName{} on their machine, the user will interact with th
 % .3 {YBusBuilder.jl}.
 .2 {main.jl}.
 .2 {main\_notebook.jl}.
-.2 {README.md}.
 .2 {LICENSE}.
+.2 {Manifest.toml}.
+.2 {Project.toml}.
+.2 {README.md}.
 }
 
 \subsection{Pluto Interactive Notebook}
 
-While users are free to make function calls from \packageName{} within any editor of their choice, we also provide a handy interactive notebook environment for users to quickly get an overiew of the package using already made scripts with easy to manipulate control widgets. We prefer Pluto.jl \cite{PlutodotjlGithub} as the notebook environment instead of other popular notebook environments like Jupyter or Observable because, unlike Observable, it is an open source notebook environment and and more importantly, unlike Jupyter it is a reactive notebook, i.e. it does not have any hidden states in the workspace \cite{Pimentel2019May, Perkel2021May}.
+While users are free to make function calls from \packageName{} within any editor of their choice, we also provide a handy interactive notebook environment for users to quickly get an overiew of the package using demo scripts with easy to manipulate control widgets. We prefer Pluto.jl \cite{PlutodotjlGithub} as the notebook environment instead of other popular notebook environments like Jupyter or Observable for the following reasons. Unlike Observable, Pluto is an open source notebook environment written completely in Julia. Secondly and more importantly, unlike Jupyter, Pluto is a reactive notebook environment, i.e. it does not have any hidden states in the workspace, which have been found out to cause code reproducibility issues \cite{Pimentel2019May, Perkel2021May}.
 
 \includegraphics[width=0.4\textwidth]{\imagedir/plutoImg01}
 % \includegraphics[width=0.5\textwidth]{\figdir/plutoImg03}
